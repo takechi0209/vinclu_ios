@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4574F22318A65A5700BB0B15 /* VincluLed.m in Sources */ = {isa = PBXBuildFile; fileRef = 4574F22218A65A5700BB0B15 /* VincluLed.m */; };
+		459047A31840788700880218 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459047A21840788700880218 /* MediaPlayer.framework */; };
+		459047A418407B7C00880218 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A904A5183BAF6000F03BF0 /* AudioToolbox.framework */; };
 		45A9046D183BA9BD00F03BF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A9046C183BA9BD00F03BF0 /* Foundation.framework */; };
 		45A9046F183BA9BD00F03BF0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A9046E183BA9BD00F03BF0 /* CoreGraphics.framework */; };
 		45A90471183BA9BD00F03BF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A90470183BA9BD00F03BF0 /* UIKit.framework */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4574F22118A65A5700BB0B15 /* VincluLed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VincluLed.h; sourceTree = "<group>"; };
+		4574F22218A65A5700BB0B15 /* VincluLed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VincluLed.m; sourceTree = "<group>"; };
+		459047A21840788700880218 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		45A90469183BA9BD00F03BF0 /* WaveSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaveSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45A9046C183BA9BD00F03BF0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		45A9046E183BA9BD00F03BF0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +59,9 @@
 		45A90493183BA9BD00F03BF0 /* WaveSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WaveSampleTests-Info.plist"; sourceTree = "<group>"; };
 		45A90495183BA9BD00F03BF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		45A90497183BA9BD00F03BF0 /* WaveSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaveSampleTests.m; sourceTree = "<group>"; };
+		45A904A1183BAE4800F03BF0 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		45A904A3183BAE9300F03BF0 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		45A904A5183BAF6000F03BF0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				459047A418407B7C00880218 /* AudioToolbox.framework in Frameworks */,
+				459047A31840788700880218 /* MediaPlayer.framework in Frameworks */,
 				45A9046F183BA9BD00F03BF0 /* CoreGraphics.framework in Frameworks */,
 				45A90471183BA9BD00F03BF0 /* UIKit.framework in Frameworks */,
 				45A9046D183BA9BD00F03BF0 /* Foundation.framework in Frameworks */,
@@ -101,6 +112,10 @@
 		45A9046B183BA9BD00F03BF0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				459047A21840788700880218 /* MediaPlayer.framework */,
+				45A904A5183BAF6000F03BF0 /* AudioToolbox.framework */,
+				45A904A3183BAE9300F03BF0 /* AudioUnit.framework */,
+				45A904A1183BAE4800F03BF0 /* CoreAudio.framework */,
 				45A9046C183BA9BD00F03BF0 /* Foundation.framework */,
 				45A9046E183BA9BD00F03BF0 /* CoreGraphics.framework */,
 				45A90470183BA9BD00F03BF0 /* UIKit.framework */,
@@ -119,6 +134,8 @@
 				45A90482183BA9BD00F03BF0 /* ViewController.m */,
 				45A90484183BA9BD00F03BF0 /* Images.xcassets */,
 				45A90473183BA9BD00F03BF0 /* Supporting Files */,
+				4574F22118A65A5700BB0B15 /* VincluLed.h */,
+				4574F22218A65A5700BB0B15 /* VincluLed.m */,
 			);
 			path = WaveSample;
 			sourceTree = "<group>";
@@ -252,6 +269,7 @@
 				45A90483183BA9BD00F03BF0 /* ViewController.m in Sources */,
 				45A9047D183BA9BD00F03BF0 /* AppDelegate.m in Sources */,
 				45A90479183BA9BD00F03BF0 /* main.m in Sources */,
+				4574F22318A65A5700BB0B15 /* VincluLed.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +478,7 @@
 				45A9049D183BA9BD00F03BF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45A9049E183BA9BD00F03BF0 /* Build configuration list for PBXNativeTarget "WaveSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +487,7 @@
 				45A904A0183BA9BD00F03BF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
